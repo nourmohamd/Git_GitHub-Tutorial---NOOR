@@ -1,0 +1,77 @@
+------------------ Distributed Version Control System ------------------
+cd "Change Directories"
+mkdir nameOfFolder
+touch file.extension
+git clone url
+dir
+git add file or * or file1 file2
+git status
+git reset head file or *
+git commit -m "Message For This Commit"
+git branch
+git remote -v
+git push remoteName branchName
+git pull remoteName
+clear
+ls
+ren oldName newName
+git config --list or -l
+git help config
+git config --global user.name
+git config --global user.email
+git config --global --edit
+git config --global --unset user.name or anyProperties
+git config -l --show-origin
+ssh-keygen -t rsa -b 4096 -C "email@gmail.com"
+cat ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+//////////////////////// - Build Repository in local and send it to remote
+cd
+git init
+git add file
+git commit -m "msg"
+git remote add origin url
+git push -u remoteName branchName
+////////////////////////
+git config --global alias.st status or "status"
+git branch
+git branch newBranch
+git checkout branchName
+git branch -d branchName
+git checkout -b newBranch
+git branch -m newName
+git merge branchName
+git branch -d branchName
+git branch -D branchName
+git stash
+git stash pop
+git stash list
+git stash save "Message"
+git stash pop | git stash pop stash@{id}
+git stash apply | git stash apply stash@{id}
+git stash drop | git stash drop stash@{id}
+git stash show | git stash show stash@{id}
+git stash clear
+git restore --staged fileName or *
+git clean -n
+git clean -f
+git log
+git reset --hard idCommit
+git push origin main --force
+touch .gitignore
+git add -f fileName
+git add --force fileName
+git tag v0.0.1
+git push origin v0.0.1
+git tag -a v0.0.2 -m "Version 0.0.2"
+git push origin v0.0.2
+git tag --list or -l
+git tag -d nameTag
+git push origin --delete v0.0.2
+
+
+
+
+
+
+
