@@ -65,6 +65,7 @@ git tag v0.0.1
 git push origin v0.0.1
 git tag -a v0.0.2 -m "Version 0.0.2"
 git push origin v0.0.2
+git tag --list "v1.*" ===> For Search About All v1.1|2|3|...
 git tag --list or -l
 git tag -d nameTag
 git push origin --delete v0.0.2
