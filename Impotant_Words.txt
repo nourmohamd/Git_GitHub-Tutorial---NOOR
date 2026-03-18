@@ -1,0 +1,10 @@
+1- Repository ( Repo )
+2- BranchName
+3- RemoteName
+4- Local Repository
+5- Remote Repository
+6- Commit ( CheckPoint In Your Local Repository )
+7- Clone ( Get A Clone From Remote Repo To WorkSpace )
+8- Push ( Upload Local Changes To Remote Reposiotry )
+9- Pull ( Pull All Changes From Remote Repo To Local Repository )
+10- Pull Request ( Tell Other About Your Changes To Pull It From Local To Remote Repository )
