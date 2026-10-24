@@ -1,0 +1,9 @@
+Configuration
+-------------
+1- git config --list | -l
+2- git help config
+3- git config --global user.email "Your Email"
+4- git config --global user.name "Your Name"
+5- git config --global --edit
+6- git config --global --unset user.email user.name
+7- git config -l --show-origin
