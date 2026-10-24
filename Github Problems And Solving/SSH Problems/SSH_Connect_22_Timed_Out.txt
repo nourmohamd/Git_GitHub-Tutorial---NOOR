@@ -1,0 +1,20 @@
+1- Solution 1
+You Can Used HTTPS Mode
+
+Or
+
+2- Solution 2
+Solve SSH And Used it
+
+1- bash
+Write This ===> nano ~/.ssh/config
+
+2- Text
+Write This In nano Mode
+-----------------------
+Host github.com
+    Hostname ssh.github.com
+    Port 443
+    User git
+
+3- For Save New Rules Click On ( Enter + Ctrl+o + Ctrl+x )
