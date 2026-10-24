@@ -1,0 +1,6 @@
+1- git init
+2- touch file.html
+3- git add file.html
+4- git commit -m "Upload New File"
+5- git remote add origin URL
+6- git push -u origin master|main
