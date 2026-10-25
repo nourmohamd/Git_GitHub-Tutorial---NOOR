@@ -1,0 +1,9 @@
+1- git stash
+2- git stash pop
+3- git stash list
+4- git stash save "Message"
+5- git stash pop | git stash pop stash@{id}
+6- git stash apply | git stash apply stash@{id}
+7- git stash drop | git stash drop stash@{id}
+8- git stash show | git stash show stash@{id}
+9- git stash clear
