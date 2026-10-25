@@ -1,0 +1,9 @@
+git restore --staged fileName or *
+git clean -n
+git clean -f
+git log
+git reset --hard idCommit
+git push origin main --force
+touch .gitignore
+git add -f fileName
+git add --force fileName
