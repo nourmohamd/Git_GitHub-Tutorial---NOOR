@@ -1,0 +1,8 @@
+1- git branch
+2- git branch newBranch
+3- git checkout branchName
+4- git checkout -b newBranch
+5- git branch -d branchName
+6- git branch -D branchName
+7- git merge branchName
+8- git branch -m newName
