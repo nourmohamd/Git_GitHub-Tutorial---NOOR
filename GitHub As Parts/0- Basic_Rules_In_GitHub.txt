@@ -1,0 +1,16 @@
+cd "Change Directories"
+mkdir nameOfFolder
+touch file.extension
+git clone url
+dir
+git add file or * or file1 file2
+git status
+git reset head file or *
+git commit -m "Message For This Commit"
+git branch
+git remote -v
+git push remoteName branchName
+git pull remoteName
+clear
+ls
+ren oldName newName
